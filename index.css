@@ -1,12 +1,296 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
-.flex-container {
+a {
+    text-decoration: none;
+}
+
+.flex-container--nav-bar,
+ .flex-container--header,
+  .flex-container--information,
+   .flex-container--quote {
     display: flex;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
-.flex-item-nav-bar, .flex-item-header {
-    flex: 1 1 auto;
+.nav-bar, .header {
+    background-color: #1f2937;
+    color: #f9faf8;
 }
+
+.flex-item-nav-bar {
+    flex: 1 1 auto;
+    justify-content: flex-end;
+    height: 40px;
+    padding: 8px;
+}
+
+.flex-item-navbar--nav-bar-logo {
+    font-size: 24px;
+    margin-right: auto;
+    align-self: center;
+}
+
+.flex-item-navbar--nav-bar-links {
+    font-size: 18px;
+    margin-right: 20px;
+    align-self: center;
+}
+
+.flex-item-navbar--nav-bar-links a {
+    padding: 4px;
+    margin-right: 16px;
+    color: #e5e7eb;
+}
+
+
+
+.header {
+    height: 450px;
+}
+
+.flex-item-header-text {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    flex: 1 1 auto;
+    background-color: #1f2937;
+    margin-left: 80px;
+}
+
+.fi-inner-header h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.sign-up-button {
+    background-color: #3882f6; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5%;
+}
+
+.fi-inner-header p {
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.flex-item-header-img {
+    flex: 2 1 auto;
+    align-self: center;
+    margin-left: 180px;
+    margin-bottom: 40px;
+}
+
+.flex-item-header-img img {
+    width: 70%;
+    height: auto;
+}
+.flex-container--information {
+    flex-direction: column;
+}
+
+.flex-item--info-text {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.flex-container--info-panels {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.flex-item-info {    
+    width: 160px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 36px;
+    margin-right: 36px;
+}
+
+.flex-item-info div {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border: 3px solid #3882f6;
+    border-radius: 15%;
+    text-align: center;
+}
+
+.flex-item-info img {
+    width: 140px;
+    height: 140px; 
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.flex-item-info p {
+    text-align: center;
+}
+
+.flex-container--quote {
+    flex-direction: column;
+    padding-top: 60px;
+    padding-right: 25%;
+    padding-left: 25%;
+    background-color: #e5e7eb;
+    margin-top: 80px;
+}
+
+.flex-item--quote {
+    margin-right: auto;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.flex-item--reference {
+    margin-left: auto;
+    font-size: 24px;
+    font-weight: bold;
+    color:#1f2937
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.flex-container--footer {
+    display: flex;
+    height: 180px;
+    width: 35%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 5%;
+    padding-right:5%;
+    justify-content: right;
+    align-content: center;
+    background-color: #3882f6;
+    border-radius: 15px;
+    border-collapse: separate;
+    align-self: center;
+}
+
+.flex-item--footer-text {
+    margin-right: auto;
+    align-self: center;
+    
+}
+
+.flex-item--footer-header  {
+    font-size: 32px;
+    color: #f9faf8;
+    margin-bottom: 8px;
+}
+
+.flex-item--footer-description {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 8px;
+}
+
+.flex-item--footer-button {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-item--button {
+    height: fit-content;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: white;
+    padding: 8px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: 2px solid #f9faf8;
+    border-radius: 5%;
+    align-self: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
